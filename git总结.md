@@ -37,20 +37,16 @@
     - git commit -am"xxx":
 
   #### 文件重命名：
-
     - git mv index.html home.html
     - 方法一：
-
       - 将一个文件重命名后，git status 会发现 git 的记录是：删掉了原文件同时新增了个文件
       - 那么此时的做法是：git add 新文件名 将新文件添加到暂存区里去，同时用 git rm 原文件名 来删除旧的文件；
       - 然后在 git status 会显示，git 知道你是将原文件更名（renamed）为了新文件；
-
         - ![](https://api2.mubu.com/v3/document_image/9a291618-ca94-4611-856f-ce3cc1f4376c-11568850.jpg)
 
     - 方法二：git mv index.html home.html
 
       - 推荐重命名用这种方式
-
         - ![](https://api2.mubu.com/v3/document_image/ac405c08-bede-4239-a066-4a7af7a26b3d-11568850.jpg)
 
   #### 删除不要的文件：
@@ -169,7 +165,7 @@
 
       - git help -a： list available subcommands
 
-        - - ![](https://api2.mubu.com/v3/document_image/44c4135f-4841-4103-8d96-9f70cde4c975-11568850.jpg)
+        - ![](https://api2.mubu.com/v3/document_image/44c4135f-4841-4103-8d96-9f70cde4c975-11568850.jpg)
 
       - git help -g：some concept guides.
 
@@ -184,15 +180,15 @@
 
       - git add -i | --interactive // 进入交互式暂存编辑界面
 
-        - - ![](https://api2.mubu.com/v3/document_image/b979e5c8-0757-4e23-bc19-1eb3e2e88114-11568850.jpg)
-        - - ![](https://api2.mubu.com/v3/document_image/80deb3f4-10d5-48d4-8ff6-4ee871934823-11568850.jpg)
-        - - ![](https://api2.mubu.com/v3/document_image/b9ccf6bb-0e2f-44ac-bded-55041776926b-11568850.jpg)
-        - - ![](https://api2.mubu.com/v3/document_image/4aab5f1d-5e09-4c04-839e-e9d22afe4ccb-11568850.jpg)
+        - ![](https://api2.mubu.com/v3/document_image/b979e5c8-0757-4e23-bc19-1eb3e2e88114-11568850.jpg)
+        - ![](https://api2.mubu.com/v3/document_image/80deb3f4-10d5-48d4-8ff6-4ee871934823-11568850.jpg)
+        - ![](https://api2.mubu.com/v3/document_image/b9ccf6bb-0e2f-44ac-bded-55041776926b-11568850.jpg)
+        - ![](https://api2.mubu.com/v3/document_image/4aab5f1d-5e09-4c04-839e-e9d22afe4ccb-11568850.jpg)
 
 ### .git 文件夹介绍：版本仓库，git 最核心的东西
 ### Git 三种对象（commit、tree、blob）彼此间的关系：
 
-    - - ![](https://api2.mubu.com/v3/document_image/7641ada4-2e3c-4d76-9126-e1b59bb911fd-11568850.jpg)
+    - ![](https://api2.mubu.com/v3/document_image/7641ada4-2e3c-4d76-9126-e1b59bb911fd-11568850.jpg)
     - 一个 commit 对应一颗树，这棵树代表这次提交的视图快照
 
 ### 分离头指针介绍：detached HEAD
@@ -214,8 +210,8 @@
 
       - ![](https://api2.mubu.com/v3/document_image/f8932d8d-f32d-4129-9d82-f8489926f9ef-11568850.jpg)
 
-    - - ![](https://api2.mubu.com/v3/document_image/fa29bad3-907f-494a-bece-f5c25997170c-11568850.jpg)
-    - - ![](https://api2.mubu.com/v3/document_image/2df0a4f1-a20f-41a8-b526-7e5a6498b668-11568850.jpg)
+      - ![](https://api2.mubu.com/v3/document_image/fa29bad3-907f-494a-bece-f5c25997170c-11568850.jpg)
+      - ![](https://api2.mubu.com/v3/document_image/2df0a4f1-a20f-41a8-b526-7e5a6498b668-11568850.jpg)
 
 ### HEAD 和 branch 分支、commit 的关系
 
